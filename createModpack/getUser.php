@@ -192,6 +192,10 @@ if ($zip->open($zipName, ZipArchive::CREATE) === TRUE) {
         }
         $zip->close();
     }
+
+    $zip->open($zipName);
+    $zip->addFile('../permission/create-new-modpack.url', 'create-new-modpack-TDZ.url');
+    $zip->close();
 }
 
 $date = date("Y-m-d H:i:s");
