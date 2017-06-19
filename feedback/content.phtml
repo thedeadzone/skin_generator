@@ -1,0 +1,26 @@
+<div class="content-wrap">
+    <div class="white-block white-header">
+        <h3>Feedback</h3>
+    </div>
+    <div class="white-block">
+        <div class="alert alert-success hidden" id="feedback-submitted" role="alert">
+            <strong>Success!</strong> Your feedback has been submitted, thank you for helping to improve this tool.
+        </div>
+        <div class="alert alert-danger hidden" id="feedback-submitted-error" role="alert">
+            <strong>Error!</strong> Something went wrong while submitting your feedback, please try again later.
+        </div>
+        <form class="search-bar" role="search" id="feedback-form">
+            <div class="form-group">
+                <label for="feedback-type">Type of feedback?</label><select name="feedback-type" id="feedback-type" class="form-control width-100">
+                    <option value="bug">Bug report</option>
+                    <option value="improvement">Improvement</option>
+                    <option value="question">Question</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="feedback-text">Text</label>
+                <textarea required name="feedback-text" id="feedback-text" class="form-control" placeholder="Feedback"></textarea>
+            </div>
+            <button type="submit" id="submit-feedback" class="width-100 btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>

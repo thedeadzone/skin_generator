@@ -1,0 +1,76 @@
+<div class="content-wrap">
+    <div class="white-block white-header">
+        <h3>Create modpack</h3>
+    </div>
+    <div class="white-block">
+        <form class="search-bar" role="search" id="createmodpack-form">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <label for="createmodpack-username">Username</label>
+                        <input type="text" required class="form-control" id="createmodpack-username" name="createmodpack-username" placeholder="username">
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <label for="createmodpack-hd">HD version?</label>
+                        <select name="createmodpack-hd" id="createmodpack-hd" class="form-control width-100">
+                            <option value="">Yes</option>
+                            <option value="">No</option>
+                        </select>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <label for="createmodpack-server">Server</label>
+                        <select name="createmodpack-server" id="createmodpack-server" class="form-control width-100">
+                            <option value="eu">Europe</option>
+                            <option value="ru">Russia</option>
+                            <option value="com">North-America</option>
+                            <option value="asia">Asia</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+            <button type="submit" id="submit-createmodpack" class="width-100 btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <div class="white-block error-modpack hidden">
+        <div class="alert alert-danger" role="alert">
+            <strong>Error!</strong> This account does not exist, please try again with a different nickname.
+        </div>
+    </div>
+    <div class="white-block loading-modpack hidden">
+        <h1 class="align-center align-center-icon">
+            <i class="fa fa-refresh fa-spin fa-4x fa-fw"></i>
+            <span class="sr-only">Loading...</span>
+        </h1>
+        <h2 class="align-center" >Please wait a moment while your custom modpack is being created...</h2>
+    </div>
+    <div class="white-block download-modpack align-center hidden">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title"><b>Your modpack has been created!</b> The link below will start your download.</h3>
+            </div>
+            <div class="panel-body">
+                <a class="btn btn-primary btn-lg download-modpack-href" href="#">Download <i class="fa fa-download" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="white-block stats-modpack hidden">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Tier</th>
+                    <th>Name</th>
+                    <th>Battles</th>
+                    <th>Win rate</th>
+                    <th>Avg. Damage</th>
+                    <th>Avg. Experience</th>
+                    <th>Wn8</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>

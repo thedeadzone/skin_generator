@@ -1,0 +1,973 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    color:black;
+    text-decoration:none;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+    font-size: 10pt;
+    /*background-color: #f7f7f7;*/
+    background-color: #eef1f5 !important;
+}
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*padding: 1rem;*/
+    /*background-color: #efefef;*/
+    text-align: center;
+}
+
+.v-center {
+    display: flex;
+    align-items: center;
+}
+
+
+.float-right {
+    float: right !important;
+}
+
+.logo-header img {
+    width: 230px;
+    margin-bottom: 10px;
+    /*margin-left: 15px;*/
+    margin-top:-7px;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.header-wrap {
+    background-color: white;
+    height:55px;
+    color:white;
+    border-bottom: 1px solid #ddd;
+}
+
+body hr {
+    border-top: 1px solid #c8c8c8;
+}
+
+.header-menu {
+    width:100%;
+    /*margin: 0 auto;*/
+    padding-left: 0;
+}
+
+.header-menu h3 a, .header-menu h1 a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.header-menu h1, .header-menu h3 {
+    float: left;
+    text-decoration: none;
+    margin-left: 45px;
+    width:auto;
+    height:40px;
+    text-align: center;
+    padding:5px;
+    border-radius: 5px;
+    color:black;
+    margin-top:15px;
+}
+.header-menu h3 {
+    width: 110px;
+    padding-top: 11px;
+}
+
+.header-menu h1 {
+    font-size: 18px;
+}
+
+/*.header-menu h1:first-child {*/
+/*margin-left:0;*/
+/*}*/
+
+.header-menu h1:hover, .header-menu h3:hover {
+    /*color: #e5e5e5;*/
+    color: rgb(85, 85, 85);
+}
+
+.header-menu li {
+    float: left;
+}
+
+.footer-container {
+    background: #cccccc;
+    /*height: 73px; !* 95px *!*/
+    height:63px;
+    color:white;
+}
+
+.footer-container p{
+    /*text-align: left;*/
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.footer-container .footer-colofon li {
+    text-align: center;
+}
+
+.footer-colofon {
+    margin-top: 11px;
+}
+
+.cat-row-wrap, .comp-row-wrap {
+    padding-left: 30px;
+    padding-right: 30px;
+    /*margin-bottom: 60px;*/
+}
+
+.content-home h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.content-home {
+    margin-top: 30px;
+}
+
+.inside-list ul {
+    list-style-type:none;
+    height:auto;
+    min-height:1024px;
+    padding-left: 0;
+}
+
+.inside-list ul li {
+    width: 100%;
+    height:100px;
+    padding:5px;
+    border: 1px solid #ddd;
+    border-radius:8px;
+    margin-bottom:2px;
+    padding-left: 11px;
+    background-color:white;
+}
+
+.inside-list ul a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.todo-list ul li {
+    border-left: 8px solid rgba(249, 38, 49, 0.76) !important;
+}
+
+.todo-list ul li:hover {
+    background-color: rgba(249, 38, 49, 0.20);
+}
+
+.progress-list ul li {
+    border-left: 8px solid rgba(255, 114, 26, 0.82) !important;
+}
+
+.progress-list ul li:hover {
+    background-color: rgba(255, 114, 26, 0.20);
+}
+
+.done-list ul li {
+    border-left: 8px solid rgba(143, 201, 58, 0.76) !important;
+}
+
+.done-list ul li:hover {
+    background-color: rgba(143, 201, 58, 0.20);
+}
+
+.lists li p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 400px;
+}
+
+.lists li h4 {
+    font-weight: bold;
+}
+
+.red {
+    color:red;
+}
+
+.white {
+    color:white;
+    font-size:30px;
+}
+
+.todo-red {
+    background-color: rgba(249, 38, 49, 0.76);
+}
+
+.progress-orange {
+    background-color: rgba(255, 114, 26, 0.82);
+}
+
+.done-green {
+    background-color: rgba(143, 201, 58, 0.76);
+}
+
+.multiple-orange {
+    background-color: #FF715B;
+}
+
+.icon-red {
+    color: rgba(249, 38, 49, 0.76);
+}
+
+.icon-orange {
+    color: rgba(255, 114, 26, 0.82);
+}
+
+.icon-green {
+    color: rgba(143, 201, 58, 0.76);
+}
+
+h1.error-red {
+    color: rgba(249, 38, 49, 0.76);
+}
+
+h1.error-red:hover {
+    color: rgb(68, 199, 228)
+}
+
+.status-0-button, .status-1-button, .status-2-button{
+    font-size: 25px;
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0;
+    border: 1px solid black;
+    color: white;
+    float: left;
+    margin-top: 16px;
+}
+
+.status-0 {
+    background-color: rgba(249,38,49,0.69);
+}
+
+.status-1 {
+    background-color: rgba(255, 114, 26, 0.69);
+}
+
+.status-2 {
+    background-color: rgba(57, 222, 37, 0.69);
+}
+
+.todo-red-full {
+    background-color: rgb(249, 38, 49);
+}
+
+.progress-orange-full {
+    background-color: rgb(255, 114, 26);
+}
+
+.done-green-full {
+    background-color: rgba(57, 222, 37, 0.92);
+}
+
+.comp-content {
+    margin-top: 60px;
+}
+
+.comp-content h3 {
+    float:left;
+    padding: 10px;
+    color: white;
+    font-weight: 300;
+}
+
+.comp-content h1 {
+    text-align: center;
+}
+
+.comp-content table, .comp-proof table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.comp-content thead tr th, .comp-proof thead tr th {
+    padding:8px;
+    color:white;
+    font-size:16px;
+    border-bottom: 1px solid #32c5d2;;
+}
+
+.comp-content tbody tr td, .comp-proof tbody tr td {
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+.comp-proof {
+    margin-top: 30px;
+}
+
+.comp-proof table tbody tr td {
+    padding-bottom:30px;
+}
+
+.bar {
+    width: 100%;
+    margin-bottom: -15px;
+    margin-top:60px;
+}
+
+.progress {
+    height:60px !important;
+    margin-bottom: 0 !important;
+}
+
+.progress div {
+    font-size: 33px;
+    padding-top: 23px
+}
+
+.inside-comp-proof {
+    padding: 30px 15px 15px;
+}
+
+.project-images {
+    padding: 30px 15px 15px;
+}
+
+.project-images img {
+    padding-bottom: 15px;
+}
+
+.project-images img:last-child {
+    padding-bottom: 0;
+}
+
+.project-description p:last-child {
+    padding-bottom:20px;
+}
+
+.inside-comp p {
+    text-align:center;
+}
+
+.comp-proof thead, .comp-content thead {
+    background-color: rgb(68, 199, 228);
+}
+
+.comp-row-wrap table{
+    border-collapse: separate;
+    border: 1px solid #32c5d2;
+    overflow: hidden;
+    background-color:white;
+}
+
+.footer-social, .footer-colofon{
+    list-style:none;
+    text-align:left;
+}
+
+.footer-container {
+    padding-top:15px;
+}
+
+.footer-social a, .footer-colofon a {
+    color: rgb(68, 199, 228);
+}
+
+.footer-social a:hover, .footer-colofon a:hover {
+    color: rgb(36, 145, 169);
+}
+
+.comp-content i {
+    margin-top:6px;
+    font-size:35px;
+    color:white;
+}
+
+.inside-comp-content {
+    margin: 0 auto;
+    padding: 4px 10px;
+    margin-bottom: 10px
+}
+
+.inside-comp {
+    margin-bottom:30px;
+}
+
+.inside-comp-content h3 {
+    padding: 10px;
+    color: white;
+    font-weight: 300;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+
+.footer-icons {
+    list-style: none;
+    padding-left:0;
+    color:black;
+    font-size:16pt;
+}
+
+.footer-icons li:last-child {
+    /*padding-top:5px;*/
+}
+
+.footer-icons img{
+    width:60px;
+}
+
+.footer-links{
+    list-style: none;
+}
+
+.footer-links a, .footer-icons a {
+    color:rgb(68, 199, 228);
+}
+
+.footer-links a:hover, .footer-icons a:hover {
+    color:rgb(68, 199, 228);
+}
+
+.content-progress, .content-progress-green, .content-progress-orange, .content-progress-red {
+    width: 50%;
+    margin: 60px auto 0;
+}
+
+.content-progress-red {
+    border: 2px solid rgba(249, 38, 49, 0.76);
+}
+.content-progress-green {
+    border: 2px solid rgba(143, 201, 58, 0.76);
+}
+.content-progress-orange {
+    border: 2px solid rgba(255, 114, 26, 0.69);
+}
+
+.content-progress-red h2{
+    background-color: rgba(249, 38, 49, 0.76);
+}
+.content-progress-green h2{
+    background-color: rgba(143, 201, 58, 0.76);
+}
+.content-progress-orange h2{
+    background-color: rgba(255, 114, 26, 0.69);
+}
+
+.content-progress h1 {
+    font-size:130px;
+    text-align:center;
+    margin-top:0;
+    margin-bottom:0;
+    background-color: white;
+}
+
+.content-progress h2 {
+    text-align:center;
+    font-size:38px;
+    color:white;
+    margin-top: 0;
+    margin-bottom:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-progress h1 {
+    font-size: 57px;
+    padding: 10px 20px 15px;
+    margin-top:0;
+}
+
+.text-progress h1 span {
+    font-size:75px;
+}
+
+.text-progress h1 span.icon-green{
+    color:  #5cb85c!important;
+}
+
+.progress-table-styling {
+    border: 2px solid rgb(68, 199, 228);
+    background-color:white;
+    margin-top:60px;
+}
+
+.progress-table-styling thead {
+    background-color: rgb(68, 199, 228);
+    font-size:30px;
+    color:white;
+}
+
+.progress-table-styling thead th {
+    padding-left:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.img-source {
+    padding-top:10px;
+}
+
+.inside-list h4>span {
+    font-size:12px;
+    padding-right:15px;
+    color:#848484;
+    padding-top:4px;
+}
+
+h4>span.number-ball {
+    background-color: lightcoral;
+    border-radius: 26px;
+    margin-right: 5px;
+    color: white;
+    padding: 4px 6px 2px;
+}
+
+.no-href:hover {
+    text-decoration: none; /* no underline */
+}
+
+.ginger-pink {
+    background-color: rgba(244, 129, 232, 0.81);
+}
+
+.ginger-pink:hover {
+    background-color: rgba(240, 87, 244, 0.81);
+}
+
+.color-pink-block {
+    background-color: rgba(244, 129, 232, 0.99);
+    color: rgba(244, 129, 232, 0.99);
+}
+
+.color-blue-block{
+    background-color: #0000ff;
+    color: #0000ff;
+}
+
+.bwa-pink {
+    background-color: rgb(239, 0, 141);
+}
+
+.bwa-pink:hover {
+    background-color: rgb(176, 0, 101);
+}
+
+.nicoud-red {
+    background-color: rgba(187, 17, 17, 0.94);
+}
+
+.color-red-block {
+    background-color: rgba(187, 17, 17, 0.99);
+    color: rgba(187, 17, 17, 0.99);
+}
+
+.nicoud-red:hover {
+    background-color: rgba(151, 10, 0, 0.94);
+}
+
+.tdz-blue {
+    background-color: rgb(68, 199, 228);
+}
+
+.tdz-blue:hover {
+    background-color: rgb(56, 161, 185);
+}
+
+.project-description h3{
+    float: none;
+    color: #3e3c3c;
+    padding-left: 0;
+    margin-bottom: 0;
+    font-size: 19px;
+    font-weight: 500;
+    padding-bottom: 6px;
+}
+
+.timeline h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:24px;
+}
+
+.timeline .timeline-items .timeline-item {
+    margin-top:-175px;
+}
+
+.timeline-item.inverted h3 {
+    text-align: left;
+    width:100%;
+}
+
+li#comp-9.timeline-item{
+    margin-top:0;
+}
+
+.project-description h3 {
+    text-align:center;
+}
+
+.project-description p {
+    text-align:center;
+}
+
+.button-align {
+    display: flex;
+    margin-bottom:15px;
+}
+
+.button-align h3, .button-align a {
+    margin: 0 auto;
+}
+
+.button-align h3.ginger-pink, .button-align h3.nicoud-red, .button-align h3.bwa-pink, .button-align h3.multiple-orange, .button-align h3.tdz-blue {
+    /*border-radius:50px;*/
+}
+
+.button-align a, .button-align h3 a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.login-toggler {
+    margin-top: 0;
+}
+
+.form-control {
+    margin-bottom:15px;
+}
+
+div.dropdown div.dropdown-menu {
+    top: 57px;
+    left:9px;
+    padding:15px;
+    background-color:white;
+}
+
+div.dropdown div.dropdown-menu input {
+    background-color: #eef1f5;
+}
+
+.dropdown-menu:after, .dropdown-menu:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.dropdown-menu:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #ffffff;
+    border-width: 8px;
+    margin-left: -8px;
+}
+.dropdown-menu:before {
+    border-color: rgba(245, 243, 243, 0);
+    border-bottom-color: #f5f3f3;
+    border-width: 14px;
+    margin-left: -14px;
+}
+
+h1.logged-in-text {
+    color: black;
+    font-size:14px;
+    margin-top:17px;
+}
+
+.btn.btn-danger.btn-block a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+a.back-to-top {
+    display: none;
+    width: 60px;
+    height: 60px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 50px;
+    background: rgb(68, 199, 228) url("/github/medialab/assets/img/arrow.png") no-repeat center 38%;
+    background-size: 45px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.project-detail p {
+    font-weight:500;
+    text-align:center;
+    margin-top:-10px;
+    padding-bottom:10px
+}
+
+h3.files-full-width {
+    width:100%;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.download td p, .download td h3, .download td a {
+    text-align: center;
+}
+
+.margin-bottom {
+    margin-bottom: 15px;
+}
+
+.timeline .timeline-items .timeline-item:nth-of-type(2n+1):hover {
+    background-color: #009caf;
+}
+
+.block-content {
+    /*margin-top: 30px;*/
+}
+
+.icon-content {
+    border: 1px solid black;
+    height:340px;
+    width:30%;
+    float:left;
+    margin: 15px;
+    max-width:350px;
+    background-color: white;
+}
+
+.icon-content img {
+    width: 90%;
+    margin: 15px auto 0;
+}
+
+.icon-content p {
+    margin: 15px;
+}
+
+.icon-content .fa-plus {
+    font-size:250px;
+    margin-top: 35px;
+}
+
+.icon-content-plus {
+    text-align:center;
+}
+
+.icon-content-plus a {
+    cursor:pointer;
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.icon-content-plus a:hover {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.btn-xl {
+    padding: 12px 35px;
+    font-size:35px;
+    margin:15px;
+}
+
+.button-align {
+    text-align:center;
+}
+
+.content-patient {
+    margin-top:30px;
+}
+
+.content-patient-header {
+    width:45%;
+}
+
+.content-patient-result {
+    margin-top:30px;
+}
+
+.result-table {
+    background-color: white;
+}
+
+.result-table thead {
+    background-color: #03af9e;
+    color:white;
+    font-size: 12pt;
+}
+
+.result-table tbody tr:nth-child(even) {
+    background-color:rgba(230, 247, 245, 1);
+
+}
+
+.result-table tbody tr:hover {
+    background-color:#dcdcdc;
+    cursor:pointer;
+}
+
+.user-name {
+    font-size:18px;
+}
+
+#patienten tr a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.content-patient-detail div.row {
+    margin-bottom:15px;
+}
+
+.content-patient-detail div.row:first-child {
+    /*margin-bottom:15px;*/
+    /*margin-top:15px;*/
+}
+
+.margin-bottom-big {
+    margin-bottom:30px;
+}
+
+.medicine-block {
+    height:180px;
+    border: 1px solid black;
+    background-color:white;
+    padding:5px;
+    cursor: pointer;
+}
+
+.medicine-block img {
+    margin-bottom:5px;
+    padding:5px;
+    height:80px;
+}
+
+#btn-search-patient {
+    margin-left: 15px;
+    padding: 3px 15px 5px;
+    color: white;
+    background-color: #03af9e;
+    font-weight:bold;
+}
+
+#btn-search-patient:hover {
+    color:#03af9e;
+    background-color:white;
+    border: 1px solid #03af9e;
+}
+
+.content-patient-header input.form-control{
+    height:29px;
+}
+
+.roboto-size{
+    font-weight: bold;
+    font-size:18px;
+    margin-top:40px;
+    margin-bottom:35px;
+}
+
+.content-patient-detail label {
+    font-size:12pt;
+}
+
+.content-patient-detail input {
+    padding-left:5px;
+    background-color:white;
+    border-radius:3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-width: 1px;
+}
+
+.btn-print {
+    margin: 0 !important;
+    background-color: #03af9e !important;
+    padding: 5px 15px 8px !important;
+    margin-top: 60px !important;
+    margin-bottom: 50px !important;
+    color: white !important;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.btn-print:hover{
+    background-color:white;
+    border: 1px solid #03af9e;
+    color: #03af9e;
+}
+
+.recipe-size {
+    font-size: 18pt;
+}
+
+.btn-generate {
+    background-color: #1eb7ea;
+    color:white;
+    border: 2px solid #1eb7ea;
+    font-size:13px;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+.btn-generate:hover {
+    color: #1eb7ea;
+    background-color:white;
+    border: 2px solid #1eb7ea;
+}
+
+@media (max-width: 992px) {
+    .inside-list ul {
+        min-height:0;
+    }
+
+    .footer-container {
+        height:auto;
+    }
+
+    .footer-social {
+        margin: 0 auto;
+        width:250px;
+        padding-top:15px;
+    }
+
+    .footer-links {
+        width:100px;
+        margin: 0 auto;
+        padding-left:0;
+        padding-bottom:15px;
+    }
+}

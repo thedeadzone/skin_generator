@@ -1,0 +1,43 @@
+<header>
+    <div class="header-wrap">
+        <div class="container">
+            <div class="nav-head-wrap">
+                <div class="row v-center">
+                    <div class="logo-header">
+                        <a href=""><img class="" src="assets/img/header_image-v2.png" alt=""></a>
+                    </div>
+                    <ul class="header-menu">
+                        <li><a href="create/"><h1>Create modpack</h1></a></li>
+<!--                        <li><a href="#"><h1>Other mods</h1></a></li>-->
+                        <li><a href="feedback"><h1>Feedback</h1></a></li>
+
+                        <!--                        --><?php //if($_SESSION['logged_in'] == true) { ?>
+<!--                        <li><a href="#"><h1>My Statistics</h1></a></li>-->
+<!--                        <li class="float-right">-->
+<!--                            <h1 class="">Logout</h1>-->
+<!--                        </li>-->
+<!--                        --><?php //} else { ?>
+<!--                        <li class="float-right">-->
+<!--                            <h1 class=""><a href="#">Login</a></h1>-->
+<!--                        </li>-->
+<!--                        --><?php //} ?>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main id="content" class="wrap">
+    <div class="container">
+
+    <?php
+    include_once('../assets/database/connection.php');
+
+    $date = date("Y-m-d H:i:s");
+    $page = $_SERVER['PHP_SELF'];
+
+    $query = "INSERT INTO website (`id`, `page`, `date`) VALUES (NULL, '".$page."', '".$date."')";
+
+    $result = $conn->query($query);
+    ?>

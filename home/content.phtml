@@ -1,0 +1,278 @@
+<?php
+
+include_once('../assets/database/connection.php');
+
+$query2 = "SELECT * FROM website";
+$query3 = "SELECT * FROM modpack";
+$result2 = $conn->query($query2);
+$result3 = $conn->query($query3);
+
+$conn->close();
+?>
+
+<div class="content-wrap">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6">
+            <div class="white-block-half">
+                <h4 class="underline-text">What can you do on this website?</h4>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,</p>
+                <p><b>How does it work?</b></p>
+                <img class="img-responsive" src="assets/img/steps-bar.png" alt="step bar">
+
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum</p>
+
+                <p><b>Result</b></p>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <img class="img-responsive" src="assets/img/tanks/purple_t57.png" alt="tank">
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <img class="img-responsive" src="assets/img/tanks/blue_m48.png" alt="tank">
+                    </div>
+                </div>
+            </div>
+            <div class="white-block-half">
+                <h4 class="underline-text">Top 15 languages (Client language on EU)</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Language (tag)</th>
+                            <th>Amount (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Polish (PL)</td>
+                            <td>1.693.275 (21.8%)</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>English (EN)</td>
+                            <td>1.185.254 (15.3%)</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>German (DE)</td>
+                            <td>1.111.387 (14.3%)</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Czech (CS)</td>
+                            <td>838.904 (10.8%)</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>French (FR)</td>
+                            <td>695.158  (8.9%)</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Hungarian (HU)</td>
+                            <td>386.330 (5.0%)</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Turkish (TR)</td>
+                            <td>341.534 (4.4%)</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Romanian (RO)</td>
+                            <td>191.425 (2.5%)</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Dutch (NL)</td>
+                            <td>190.992  (2.5%)</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Spanish (ES)</td>
+                            <td>182.730 (2.4%)</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Serbian (SR)</td>
+                            <td>150.342 (1.9%)</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Croatian (HR)</td>
+                            <td>117.763 (1.5%)</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>Italian (IT)</td>
+                            <td>110.154 (1.4%)</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>Bulgarian (BG)</td>
+                            <td>86.894 (1.1%)</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>Finnish (FI)</td>
+                            <td>76.825 (1.0%)</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>This is based on accounts with at least 1 battle.</p>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            <div class="white-block-half">
+                <h4 class="underline-text">About me</h4>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,</p>
+            </div>
+            <div class="white-block-half">
+                <h4 class="underline-text">Random battle stats EU (Last update 11.06.2017)</h4>
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td>
+                                Avg amount of trees cut per player
+                            </td>
+                            <td>
+                                2272,88
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Avg amount of battles per player
+                            </td>
+                            <td>
+                                2548,44
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Avg amount of trees cut per player per battle
+                            </td>
+                            <td>
+                                0,89
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Avg global rating per player
+                            </td>
+                            <td>
+                                1956,36
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Total trees cut
+                            </td>
+                            <td>
+                                17.655.934.176
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Total battles fought
+                            </td>
+                            <td>
+                                19.796.513.536
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="white-block-half">
+                <h4 class="underline-text">Website stats</h4>
+                <table class="table table-striped">
+                    <tbody>
+                    <tr>
+                        <td>
+                            Amount of page visits
+                        </td>
+                        <td>
+                            <?php echo $result2->num_rows; ?>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Amount of custom mod packs generated
+                        </td>
+                        <td>
+                            <?php echo $result3->num_rows; ?>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="white-block-half social-icons">
+                <h4 class="underline-text">Social media</h4>
+                <div class="row">
+                    <div class="col-xs-3">
+                        <a href="https://www.twitter.com/wotthedeadzone" target="_blank"><img class="img-responsive" src="assets/img/Twitter_Logo_White_On_Blue.png" alt="Twitter logo"></a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="https://www.facebook.com/thedeadzonewot/" target="_blank"><img class="img-responsive" src="assets/img/FB-f-Logo__blue_1024.png" alt="Facebook logo"></a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="https://www.youtube.com/c/TheDeadZone" target="_blank"><img class="img-responsive" src="assets/img/YouTube-social-square_red_128px.png" alt="Youtube logo"></a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="https://worldoftanks.eu/en/community/accounts/501552074-TheDeadZone_/" target="_blank"><img class="img-responsive" src="assets/img/world-of-tanks.png" alt="World of Tanks logo"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="white-block-half">
+                <h4 class="underline-text">Frequently Asked Questions</h4>
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                    How do you install the mod?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                After generating a modpack <a href="create/">here</a>, you simply have to unzip the file
+                                in the res_mods folder of the right version of the game. As this is written that would be
+                                '0.9.19.0.2'. As example Games/World_Of_Tanks/res_mods/0.9.19.0.2, make sure the vehicles folder
+                                is dropped in here. Everything will be good to go for you to play the game!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                    My wn8 in a tank has improved but my tank is still the same?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                This is because the mod pack does not update itself, you can delete the
+                                old /res_mods/0.9.19.0.2/vehicles folder and simply generate a new modpack
+                                <a href="create/">here</a> with the updated statistics.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                    The mod makes my game crash!</a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                If you encounter any issues with the mod make sure to submit it
+                                on the feedback page so I can get to it and fix it as soon as possible.
+                                Feedback page can be found in the top menu or <a href="feedback/">here</a>.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
