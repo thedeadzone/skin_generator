@@ -66,8 +66,8 @@ $(document).ready(function () {
                         '<td>'+ current[2]["tier"]+'</td>' +
                         '<td>'+ current[2]["short_name"]+'</td>' +
                         '<td>'+ current[0]['all']['battles'] +'</td>' +
-                        '<td>'+ Math.round(winrate * 100) / 100 +'</td>' +
-                        '<td>'+ Math.round(damage) +'%</td>' +
+                        '<td>'+ Math.round(winrate * 100) / 100 +'%</td>' +
+                        '<td>'+ Math.round(damage) +'</td>' +
                         '<td>'+ Math.round(xp)+'</td>' +
                         '<td class="'+ color +'-wn8">'+ wn8+'</td>' +
                         '</tr>');
