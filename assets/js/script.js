@@ -8,6 +8,7 @@ $(document).ready(function () {
         $('.loading-modpack').removeClass('hidden');
         $('.download-modpack').addClass('hidden');
         $('.stats-modpack').addClass('hidden');
+        $('.progress-modpack').addClass('hidden');
         $('#submit-createmodpack').addClass('disabled');
 
         var username = $('#createmodpack-username').val();
@@ -77,9 +78,14 @@ $(document).ready(function () {
                 $('.download-modpack-href').attr("href", response[0]);
                 $('.download-modpack').removeClass('hidden');
                 $('.stats-modpack').removeClass('hidden');
+
+                $('.progress-modpack .progress .progress-bar').css('width', '100%');
+                $('.progress-modpack .progress .progress-bar').html('100%');
+
             },
             complete: function () {
                 $(window).unbind();
+                clearInterval(timeout)
             },
             error: function (data) {
                 $('.loading-modpack').addClass('hidden');
@@ -88,6 +94,19 @@ $(document).ready(function () {
             },
             type: 'GET'
         });
+
+        timeout = setInterval(
+            function(){
+                $.get("../createModpack/getProgress.php", function( data ) {
+                    var p = data.progress;
+                    $('.progress-modpack').removeClass('hidden');
+                    var width = p + '%';
+                    console.log(width);
+                    $('.progress-modpack .progress .progress-bar').css('width', width);
+                    $('.progress-modpack .progress .progress-bar').html(width);
+                    return p;
+                }, "json");
+        }, 2000);
     });
 
     $('#feedback-form').submit(function (e) {

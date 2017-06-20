@@ -4,6 +4,12 @@ include_once('../assets/database/connection.php');
 
 ini_set('max_execution_time', 600); // 600 = 10 min
 
+session_start();
+$_SESSION['progress'] = 0;
+session_write_close();
+
+sleep(1);
+
 $username = $_GET['username'];
 $hd = $_GET['hd'];
 $server = $_GET['server'];
@@ -19,6 +25,10 @@ $account_id = $finaldata{0}->account_id;
 if ($account_id == null) {
     echo 'account_error'; exit;
 }
+
+session_start();
+$_SESSION['progress'] = 20;
+session_write_close();
 
 $tank_url = "https://api.worldoftanks.". $server ."/wot/tanks/stats/?application_id=bd84a9e4307514da892224b760b4db57&account_id=" . $account_id;
 $response_tanks = file_get_contents($tank_url);
@@ -127,9 +137,61 @@ $zipName = 'CustomStatModpack-TDZ-DEV.zip';
 if ($zip->open($zipName, ZipArchive::CREATE) === TRUE) {
     // Finds files based on color, nation and tankname. Then names them the right way ($file[2])
     // Files are then added in the right vehicles/nation/tank dir
+
+    $amountOfTanks = count($tankColorArray);
+
     foreach ($tankColorArray as $key => $tank) {
         if($key != 0) {
             $zip->open($zipName);
+        }
+
+        $A8th = round($amountOfTanks / 8);
+
+        switch ($key) {
+            case $A8th:
+                session_start();
+                $_SESSION['progress'] = 30;
+                session_write_close();
+                break;
+
+            case ($A8th*2):
+                session_start();
+                $_SESSION['progress'] = 40;
+                session_write_close();
+                break;
+
+            case ($A8th*3):
+                session_start();
+                $_SESSION['progress'] = 50;
+                session_write_close();
+                break;
+
+            case ($A8th*4):
+                session_start();
+                $_SESSION['progress'] = 60;
+                session_write_close();
+                break;
+
+            case ($A8th*5):
+                session_start();
+                $_SESSION['progress'] = 70;
+                session_write_close();
+                break;
+            case ($A8th*6):
+                session_start();
+                $_SESSION['progress'] = 80;
+                session_write_close();
+                break;
+            case ($A8th*7):
+                session_start();
+                $_SESSION['progress'] = 90;
+                session_write_close();
+                break;
+            case ($A8th*8):
+                session_start();
+                $_SESSION['progress'] = 100;
+                session_write_close();
+                break;
         }
 
         $nation = '';
