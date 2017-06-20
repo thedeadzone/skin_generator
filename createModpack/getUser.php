@@ -213,10 +213,3 @@ $conn->close();
 unlink($zipName);
 
 echo json_encode([$download_url, $userTankAndWn8]);
-
-// Sends file back to user to download
-//header('Content-Type: application/zip');
-//header('Content-disposition: attachment; filename='.$zipName);
-//header('Content-Length: ' . filesize($zipName));
-//readfile($zipName);
-//unlink($zipName);

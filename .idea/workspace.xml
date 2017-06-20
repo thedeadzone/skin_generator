@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55aab9fb-8268-40c4-852d-77df899be571" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modpacks/594281ca5bef9/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modpacks/594281ca5bef9/CustomStatModpack-TDZ-DEV.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/script.js" afterPath="$PROJECT_DIR$/assets/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create/content.phtml" afterPath="$PROJECT_DIR$/create/content.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createModpack/getUser.php" afterPath="$PROJECT_DIR$/createModpack/getUser.php" />
     </list>
     <ignored path="skin_generator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,39 +38,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create-new-modpack.url" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/permission/create-new-modpack.url">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getUser.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getUser.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/createModpack/getUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.935484">
-              <caret line="196" column="81" selection-start-line="196" selection-start-column="81" selection-end-line="196" selection-end-column="81" />
+            <state vertical-scroll-proportion="5.720535">
+              <caret line="214" column="51" selection-start-line="214" selection-start-column="51" selection-end-line="214" selection-end-column="51" />
               <folding>
-                <marker date="1497878589296" expanded="true" signature="849:868" placeholder="SELECT * FRO..tanks..." />
-                <marker date="1497878589296" expanded="true" signature="1383:1400" placeholder="SELECT * FRO..wn8..." />
-                <marker date="1497878589296" expanded="true" signature="6804:6874" placeholder="INSERT INTO `wot_statsskins`.`modpack`..." />
-                <marker date="1497878589296" expanded="true" signature="6804:6891" placeholder="INSERT INTO `wot_statsskins`.`modpack`..." />
-                <marker date="1497878589296" expanded="true" signature="6804:6908" placeholder="INSERT INTO `wot_statsskins`.`modpack`..." />
-                <marker date="1497878589296" expanded="true" signature="6804:6919" placeholder="INSERT INTO `wot_statsskins`.`modpack`..." />
+                <marker date="1497970574612" expanded="true" signature="849:868" placeholder="SELECT * FRO..tanks..." />
+                <marker date="1497970574612" expanded="true" signature="1383:1400" placeholder="SELECT * FRO..wn8..." />
+                <marker date="1497970574612" expanded="true" signature="6804:6919" placeholder="INSERT INTO modpack..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7681499">
-              <caret line="68" column="67" selection-start-line="68" selection-start-column="67" selection-end-line="68" selection-end-column="67" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="107" column="36" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
+              <folding>
+                <marker date="1497942988414" expanded="true" signature="200:1038" placeholder="{...}" />
+                <marker date="1497942988414" expanded="true" signature="877:1038" placeholder="{&quot;url&quot;: '../createModpack/getUser.php'...}" />
+                <marker date="1497942988414" expanded="true" signature="946:1038" placeholder="{&quot;step&quot;: 1...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,8 +69,8 @@
       <file leaf-file-name="content.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create/content.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.741936">
-              <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+            <state vertical-scroll-proportion="-11.354838">
+              <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -127,16 +116,16 @@
         <option value="$PROJECT_DIR$/createModpack/saveFeedback.php" />
         <option value="$PROJECT_DIR$/permission/.htaccess" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/createModpack/.htaccess" />
         <option value="$PROJECT_DIR$/html/components/header.phtml" />
         <option value="$PROJECT_DIR$/html/components/footer.phtml" />
         <option value="$PROJECT_DIR$/html/home_components/footer.phtml" />
         <option value="$PROJECT_DIR$/html/home_components/header.phtml" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/home/content.phtml" />
-        <option value="$PROJECT_DIR$/createModpack/getUser.php" />
         <option value="$PROJECT_DIR$/create/content.phtml" />
         <option value="$PROJECT_DIR$/assets/js/script.js" />
+        <option value="$PROJECT_DIR$/createModpack/.htaccess" />
+        <option value="$PROJECT_DIR$/createModpack/getUser.php" />
       </list>
     </option>
   </component>
@@ -509,9 +498,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25991425" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25991425" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -574,7 +563,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="17" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1497942988414" expanded="true" signature="200:1038" placeholder="{...}" />
+            <marker date="1497942988414" expanded="true" signature="877:1038" placeholder="{&quot;url&quot;: '../createModpack/getUser.php'...}" />
+            <marker date="1497942988414" expanded="true" signature="946:1038" placeholder="{&quot;step&quot;: 1...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -583,12 +576,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1497878589296" expanded="true" signature="849:868" placeholder="SELECT * FRO..tanks..." />
-            <marker date="1497878589296" expanded="true" signature="1383:1400" placeholder="SELECT * FRO..wn8..." />
-            <marker date="1497878589296" expanded="true" signature="6804:6874" placeholder="INSERT INTO `wot_statsskins`.`modpack`..." />
-            <marker date="1497878589296" expanded="true" signature="6804:6891" placeholder="INSERT INTO `wot_statsskins`.`modpack`..." />
-            <marker date="1497878589296" expanded="true" signature="6804:6908" placeholder="INSERT INTO `wot_statsskins`.`modpack`..." />
-            <marker date="1497878589296" expanded="true" signature="6804:6919" placeholder="INSERT INTO `wot_statsskins`.`modpack`..." />
+            <marker date="1497970574612" expanded="true" signature="849:868" placeholder="SELECT * FRO..tanks..." />
+            <marker date="1497970574612" expanded="true" signature="1383:1400" placeholder="SELECT * FRO..wn8..." />
+            <marker date="1497970574612" expanded="true" signature="6804:6919" placeholder="INSERT INTO modpack..." />
           </folding>
         </state>
       </provider>
@@ -642,6 +632,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1490612636628" expanded="true" signature="102:124" placeholder="SELECT * FRO..patients..." />
+            <marker date="1490612636628" expanded="true" signature="183:206" placeholder="SELECT * FRO..medicines..." />
+            <marker date="1490612636628" expanded="true" signature="256:278" placeholder="SELECT * FRO..patients..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -692,6 +687,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.387097">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <marker date="1497375242383" expanded="true" signature="159:229" placeholder="INSERT INTO `wot_statsskins`.`feedback`..." />
+            <marker date="1497375242383" expanded="true" signature="159:233" placeholder="INSERT INTO `wot_statsskins`.`feedback`..." />
+            <marker date="1497375242383" expanded="true" signature="159:235" placeholder="INSERT INTO `wot_statsskins`.`feedback`..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -706,13 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.103044495">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createModpack/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -780,10 +773,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+    <entry file="file://$PROJECT_DIR$/feedback/content.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.258064">
-          <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.2673147">
+          <caret line="10" column="14" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create/content.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.354838">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -796,42 +797,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feedback/content.phtml">
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2673147">
-          <caret line="10" column="14" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createModpack/getUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.935484">
-          <caret line="196" column="81" selection-start-line="196" selection-start-column="81" selection-end-line="196" selection-end-column="81" />
-          <folding>
-            <marker date="1497878589296" expanded="true" signature="849:868" placeholder="SELECT * FRO..tanks..." />
-            <marker date="1497878589296" expanded="true" signature="1383:1400" placeholder="SELECT * FRO..wn8..." />
-            <marker date="1497878589296" expanded="true" signature="6804:6874" placeholder="INSERT INTO `wot_statsskins`.`modpack`..." />
-            <marker date="1497878589296" expanded="true" signature="6804:6891" placeholder="INSERT INTO `wot_statsskins`.`modpack`..." />
-            <marker date="1497878589296" expanded="true" signature="6804:6908" placeholder="INSERT INTO `wot_statsskins`.`modpack`..." />
-            <marker date="1497878589296" expanded="true" signature="6804:6919" placeholder="INSERT INTO `wot_statsskins`.`modpack`..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create/content.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.741936">
-          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+        <state vertical-scroll-proportion="-25.258064">
+          <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7681499">
-          <caret line="68" column="67" selection-start-line="68" selection-start-column="67" selection-end-line="68" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="107" column="36" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
+          <folding>
+            <marker date="1497942988414" expanded="true" signature="200:1038" placeholder="{...}" />
+            <marker date="1497942988414" expanded="true" signature="877:1038" placeholder="{&quot;url&quot;: '../createModpack/getUser.php'...}" />
+            <marker date="1497942988414" expanded="true" signature="946:1038" placeholder="{&quot;step&quot;: 1...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createModpack/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createModpack/getUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.720535">
+          <caret line="214" column="51" selection-start-line="214" selection-start-column="51" selection-end-line="214" selection-end-column="51" />
+          <folding>
+            <marker date="1497970574612" expanded="true" signature="849:868" placeholder="SELECT * FRO..tanks..." />
+            <marker date="1497970574612" expanded="true" signature="1383:1400" placeholder="SELECT * FRO..wn8..." />
+            <marker date="1497970574612" expanded="true" signature="6804:6919" placeholder="INSERT INTO modpack..." />
+          </folding>
         </state>
       </provider>
     </entry>
