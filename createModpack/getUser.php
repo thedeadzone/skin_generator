@@ -144,7 +144,6 @@ if ($zip->open($zipName, ZipArchive::CREATE) === TRUE) {
         if($key != 0) {
             $zip->open($zipName);
         }
-
         $A8th = round($amountOfTanks / 8);
 
         switch ($key) {
@@ -153,19 +152,16 @@ if ($zip->open($zipName, ZipArchive::CREATE) === TRUE) {
                 $_SESSION['progress'] = 30;
                 session_write_close();
                 break;
-
             case ($A8th*2):
                 session_start();
                 $_SESSION['progress'] = 40;
                 session_write_close();
                 break;
-
             case ($A8th*3):
                 session_start();
                 $_SESSION['progress'] = 50;
                 session_write_close();
                 break;
-
             case ($A8th*4):
                 session_start();
                 $_SESSION['progress'] = 60;
