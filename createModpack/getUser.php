@@ -167,7 +167,6 @@ if ($zip->open($zipName, ZipArchive::CREATE) === TRUE) {
                 $_SESSION['progress'] = 60;
                 session_write_close();
                 break;
-
             case ($A8th*5):
                 session_start();
                 $_SESSION['progress'] = 70;
