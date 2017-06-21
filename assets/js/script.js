@@ -85,6 +85,7 @@ $(document).ready(function () {
                 $('.progress-modpack .progress .progress-bar').css('width', '100%');
                 $('.progress-modpack .progress .progress-bar').html('100%');
 
+                $("#myTable").tablesorter( {sortList: [[3,1]]} );
             },
             complete: function () {
                 $(window).unbind();

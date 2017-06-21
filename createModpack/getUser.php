@@ -5,7 +5,7 @@ include_once('../assets/database/connection.php');
 ini_set('max_execution_time', 600); // 600 = 10 min
 
 session_start();
-$_SESSION['progress'] = 0;
+$_SESSION['progress'] = 10;
 session_write_close();
 
 sleep(1);

@@ -102,3 +102,15 @@ textarea {
 .progress-modpack h3 {
     padding-bottom:5px;
 }
+
+#myTable thead tr th {
+    cursor: pointer;
+}
+
+#myTable tbody tr td {
+    padding: 15px 0 0 8px;
+}
+
+#myTable tbody tr td:first-child {
+    padding: 5px 0 13px;
+}
