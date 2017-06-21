@@ -268,6 +268,7 @@ $query = "INSERT INTO modpack (`id`, `map_id`, `username`, `date`) VALUES (NULL,
 $result = $conn->query($query);
 $conn->close();
 
+unset($_SESSION['progress']);
 unlink($zipName);
 
 echo json_encode([$download_url, $userTankAndWn8]);

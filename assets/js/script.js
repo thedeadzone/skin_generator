@@ -20,6 +20,7 @@ $(document).ready(function () {
             var hd = 'false'
         }
 
+        //Makes sure user does not leave page as quick before modpack is finished
         $(window).bind('beforeunload', function () {
             return 'Are you sure you want to leave before your modpack is created?';
         });
@@ -42,6 +43,7 @@ $(document).ready(function () {
                     wn8 = parseInt(wn8);
                     var color = '';
 
+                    // Color the Wn8 Column in the table
                     if (wn8 <= 599) {
                         color = 'red';
                     } else if ( wn8 <= 899) {
@@ -60,6 +62,7 @@ $(document).ready(function () {
                     var damage = current[0]['all']['damage_dealt'] / current[0]['all']['battles'];
                     var xp = current[0]['all']['xp'] / current[0]['all']['battles'];
 
+                    // Add a tank table row for every tank to the table
                     $('.stats-modpack table tbody').append('<tr>' +
                         '<td>' +
                         '<img class="img-responsive" src="'+ current[2]["small_icon"]+'" alt="tank">'+
@@ -101,7 +104,31 @@ $(document).ready(function () {
                     var p = data.progress;
                     $('.progress-modpack').removeClass('hidden');
                     var width = p + '%';
-                    console.log(width);
+
+                    //Settings text under the progressbar to be interesting
+                    if (width == 10) {
+                        $('#modpack-progress-text').text('Looking up the right garage');
+                    } else if (width == 20) {
+                        $('#modpack-progress-text').text('Handpicking the right tanks');
+                    } else if (width == 30) {
+                        $('#modpack-progress-text').text('Driving the tanks out of the garage');
+                    } else if (width == 40) {
+                        $('#modpack-progress-text').text('Looking up the right paint colors');
+                    } else if (width == 50) {
+                        $('#modpack-progress-text').text('Mixing the paint colors');
+                    } else if (width == 60) {
+                        $('#modpack-progress-text').text('Painting the tanks in the right color');
+                    } else if (width == 70) {
+                        $('#modpack-progress-text').text('Blowing the paint dry with a hair blower');
+                    } else if (width == 80) {
+                        $('#modpack-progress-text').text('Rolling tanks carefully back inside the garage');
+                    } else if (width == 90) {
+                        $('#modpack-progress-text').text('Finishing packing up all tanks');
+                    } else if (width == 100) {
+                        $('#modpack-progress-text').addClass('hidden');
+                    }
+
+                    //Setting width of progress bar + text as width + %
                     $('.progress-modpack .progress .progress-bar').css('width', width);
                     $('.progress-modpack .progress .progress-bar').html(width);
                     return p;
@@ -109,6 +136,7 @@ $(document).ready(function () {
         }, 2000);
     });
 
+    //Submitting feedback form data to database
     $('#feedback-form').submit(function (e) {
         e.preventDefault();
         $('#submit-feedback').addClass('disabled');
