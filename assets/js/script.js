@@ -106,26 +106,26 @@ $(document).ready(function () {
                     var width = p + '%';
 
                     //Settings text under the progressbar to be interesting
-                    if (width == 10) {
+                    if (width == '10%') {
                         $('#modpack-progress-text').text('Looking up the right garage');
-                    } else if (width == 20) {
-                        $('#modpack-progress-text').text('Handpicking the right tanks');
-                    } else if (width == 30) {
+                    } else if (width == '20%') {
+                        $('#modpack-progress-text').text('Handpicking the tanks');
+                    } else if (width == '30%') {
                         $('#modpack-progress-text').text('Driving the tanks out of the garage');
-                    } else if (width == 40) {
-                        $('#modpack-progress-text').text('Looking up the right paint colors');
-                    } else if (width == 50) {
-                        $('#modpack-progress-text').text('Mixing the paint colors');
-                    } else if (width == 60) {
-                        $('#modpack-progress-text').text('Painting the tanks in the right color');
-                    } else if (width == 70) {
+                    } else if (width == '40%') {
+                        $('#modpack-progress-text').text('Mixing the paint');
+                    } else if (width == '50%') {
+                        $('#modpack-progress-text').text('Painting tanks pink');
+                    } else if (width == '60%') {
+                        $('#modpack-progress-text').text('Realised mistake and painting tanks in the right color');
+                    } else if (width == '70%') {
                         $('#modpack-progress-text').text('Blowing the paint dry with a hair blower');
-                    } else if (width == 80) {
+                    } else if (width == '80%') {
                         $('#modpack-progress-text').text('Rolling tanks carefully back inside the garage');
-                    } else if (width == 90) {
+                    } else if (width == '90%') {
                         $('#modpack-progress-text').text('Finishing packing up all tanks');
-                    } else if (width == 100) {
-                        $('#modpack-progress-text').addClass('hidden');
+                    } else if (width == '100%') {
+                        $('.progress-modpack').addClass('hidden');
                     }
 
                     //Setting width of progress bar + text as width + %
