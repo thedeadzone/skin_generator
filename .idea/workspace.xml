@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55aab9fb-8268-40c4-852d-77df899be571" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/cron/cleanModpacks.php" afterPath="$PROJECT_DIR$/cron/cleanModpacks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/script.js" afterPath="$PROJECT_DIR$/assets/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create/content.phtml" afterPath="$PROJECT_DIR$/create/content.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createModpack/getUser.php" afterPath="$PROJECT_DIR$/createModpack/getUser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/components/footer.phtml" afterPath="$PROJECT_DIR$/html/components/footer.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/components/head.phtml" afterPath="$PROJECT_DIR$/html/components/head.phtml" />
     </list>
     <ignored path="skin_generator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.010935602">
+            <state vertical-scroll-proportion="-0.29032257">
               <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cleanModpacks.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cron/cleanModpacks.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.354838">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -46,8 +54,23 @@
         <entry file="file://$PROJECT_DIR$/assets/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="59" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
+              <caret line="86" column="58" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="58" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getUser.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/createModpack/getUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.65311307">
+              <caret line="265" column="74" selection-start-line="265" selection-start-column="74" selection-end-line="265" selection-end-column="74" />
+              <folding>
+                <marker date="1498122867064" expanded="true" signature="998:1017" placeholder="SELECT * FRO..tanks..." />
+                <marker date="1498122867064" expanded="true" signature="1532:1549" placeholder="SELECT * FRO..wn8..." />
+                <marker date="1498122867064" expanded="true" signature="8411:8538" placeholder="INSERT INTO modpack..." />
+                <marker date="1498122867064" expanded="true" signature="8411:8551" placeholder="INSERT INTO modpack..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,10 +114,11 @@
         <option value="$PROJECT_DIR$/createModpack/getProgress.php" />
         <option value="$PROJECT_DIR$/create/content.phtml" />
         <option value="$PROJECT_DIR$/html/components/footer.phtml" />
-        <option value="$PROJECT_DIR$/createModpack/getUser.php" />
         <option value="$PROJECT_DIR$/html/components/head.phtml" />
-        <option value="$PROJECT_DIR$/assets/js/script.js" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/cron/cleanModpacks.php" />
+        <option value="$PROJECT_DIR$/assets/js/script.js" />
+        <option value="$PROJECT_DIR$/createModpack/getUser.php" />
       </list>
     </option>
   </component>
@@ -296,6 +320,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="cron" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin_generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin_generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="createModpack" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -332,24 +370,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skin_generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skin_generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cron" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -371,6 +391,7 @@
       <recent name="C:\MAMP\htdocs\skin_generator\assets\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\skin_generator" />
       <recent name="C:\MAMP\htdocs\skin_generator\permission" />
       <recent name="C:\MAMP\htdocs\skin_generator\assets\files\hd" />
       <recent name="C:\MAMP\htdocs\skin_generator\assets\files" />
@@ -675,14 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/cron/cleanModpacks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40097207">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/jquery.tablesorter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3325527">
@@ -707,14 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="59" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-24.837357">
@@ -733,23 +738,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/createModpack/getUser.php">
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38517618">
-          <caret line="255" column="1" selection-start-line="255" selection-start-column="1" selection-end-line="255" selection-end-column="1" />
-          <folding>
-            <marker date="1498077669932" expanded="true" signature="998:1017" placeholder="SELECT * FRO..tanks..." />
-            <marker date="1498077669932" expanded="true" signature="1532:1549" placeholder="SELECT * FRO..wn8..." />
-            <marker date="1498077669932" expanded="true" signature="8411:8526" placeholder="INSERT INTO modpack..." />
-          </folding>
+        <state vertical-scroll-proportion="-0.29032257">
+          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+    <entry file="file://$PROJECT_DIR$/cron/cleanModpacks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.010935602">
-          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+        <state vertical-scroll-proportion="-11.354838">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="86" column="58" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createModpack/getUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65311307">
+          <caret line="265" column="74" selection-start-line="265" selection-start-column="74" selection-end-line="265" selection-end-column="74" />
+          <folding>
+            <marker date="1498122867064" expanded="true" signature="998:1017" placeholder="SELECT * FRO..tanks..." />
+            <marker date="1498122867064" expanded="true" signature="1532:1549" placeholder="SELECT * FRO..wn8..." />
+            <marker date="1498122867064" expanded="true" signature="8411:8538" placeholder="INSERT INTO modpack..." />
+            <marker date="1498122867064" expanded="true" signature="8411:8551" placeholder="INSERT INTO modpack..." />
+          </folding>
         </state>
       </provider>
     </entry>

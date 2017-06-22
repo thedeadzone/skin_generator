@@ -263,7 +263,7 @@ copy($zipName, '../modpacks/' . $map_id . '/' .$zipName );
 copy('../permission/.htaccess', '../modpacks/' . $map_id . '/.htaccess');
 $download_url = "../modpacks/" . $map_id . '/' .$zipName;
 
-$query = "INSERT INTO modpack (`id`, `map_id`, `username`, `date`) VALUES (NULL, '".$map_id."', '".$username."', '".$date."')";
+$query = "INSERT INTO modpack (`id`, `map_id`, `username`, `date`, `server`) VALUES (NULL, '".$map_id."', '".$username."', '".$date."', '".$server."')";
 $result = $conn->query($query);
 $conn->close();
 

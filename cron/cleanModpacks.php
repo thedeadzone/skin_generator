@@ -15,7 +15,6 @@ $dontDelete = ['../createModpack/getProgress.php', '../createModpack/getTanks.ph
 
 // Only delete the non crucial files
 foreach($filesArray as $file) {
-
     if (is_file($file)) {
         if(!in_array($file, $dontDelete)) {
             unlink($file);
