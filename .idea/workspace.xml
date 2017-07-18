@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55aab9fb-8268-40c4-852d-77df899be571" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modpacks/594b8cc0ef70e/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modpacks/594b8cc0ef70e/CustomStatModpack-TDZ-DEV.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/components/footer.phtml" afterPath="$PROJECT_DIR$/html/components/footer.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/components/header.phtml" afterPath="$PROJECT_DIR$/html/components/header.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/home_components/footer.phtml" afterPath="$PROJECT_DIR$/html/home_components/footer.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/home_components/header.phtml" afterPath="$PROJECT_DIR$/html/home_components/header.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create/content.phtml" afterPath="$PROJECT_DIR$/create/content.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/content.phtml" afterPath="$PROJECT_DIR$/home/content.phtml" />
     </list>
     <ignored path="skin_generator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,22 +29,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86650485">
-              <caret line="138" column="42" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
+            <state vertical-scroll-proportion="-8.83871">
+              <caret line="118" column="23" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
+      <file leaf-file-name="content.phtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home/content.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.419355">
-              <caret line="951" column="14" selection-start-line="951" selection-start-column="0" selection-end-line="952" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.7208738">
+              <caret line="152" column="106" selection-start-line="152" selection-start-column="106" selection-end-line="152" selection-end-column="106" />
+              <folding>
+                <marker date="1500362059689" expanded="true" signature="70:91" placeholder="SELECT * FRO..website..." />
+                <marker date="1500362059689" expanded="true" signature="105:126" placeholder="SELECT * FRO..modpack..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,13 +80,11 @@
         <option value="$PROJECT_DIR$/createModpack/saveFeedback.php" />
         <option value="$PROJECT_DIR$/permission/.htaccess" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/home/content.phtml" />
         <option value="$PROJECT_DIR$/createModpack/.htaccess" />
         <option value="$PROJECT_DIR$/assets/css/layout.css" />
         <option value="$PROJECT_DIR$/modpacks/test.php" />
         <option value="$PROJECT_DIR$/assets/cron/cleanModpacks.php" />
         <option value="$PROJECT_DIR$/createModpack/getProgress.php" />
-        <option value="$PROJECT_DIR$/create/content.phtml" />
         <option value="$PROJECT_DIR$/html/components/head.phtml" />
         <option value="$PROJECT_DIR$/cron/cleanModpacks.php" />
         <option value="$PROJECT_DIR$/assets/js/script.js" />
@@ -97,7 +93,9 @@
         <option value="$PROJECT_DIR$/html/components/footer.phtml" />
         <option value="$PROJECT_DIR$/html/components/header.phtml" />
         <option value="$PROJECT_DIR$/html/home_components/header.phtml" />
+        <option value="$PROJECT_DIR$/create/content.phtml" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/home/content.phtml" />
       </list>
     </option>
   </component>
@@ -251,11 +249,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home_components" />
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -269,25 +263,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skin_generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skin_generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="create" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,10 +278,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -707,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/content.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67922235">
-          <caret line="247" column="95" selection-start-line="247" selection-start-column="95" selection-end-line="247" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feedback/content.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2673147">
@@ -770,13 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create/content.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.774194">
-          <caret line="65" column="66" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cron/cleanModpacks.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -822,14 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.419355">
-          <caret line="951" column="14" selection-start-line="951" selection-start-column="0" selection-end-line="952" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/rainbow50100_v3.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -870,11 +820,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/create/content.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9104478">
+          <caret line="31" column="92" selection-start-line="31" selection-start-column="92" selection-end-line="31" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27912623">
+          <caret line="951" column="14" selection-start-line="951" selection-start-column="0" selection-end-line="952" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86650485">
-          <caret line="138" column="42" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
+        <state vertical-scroll-proportion="-8.83871">
+          <caret line="118" column="23" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/content.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7208738">
+          <caret line="152" column="106" selection-start-line="152" selection-start-column="106" selection-end-line="152" selection-end-column="106" />
+          <folding>
+            <marker date="1500362059689" expanded="true" signature="70:91" placeholder="SELECT * FRO..website..." />
+            <marker date="1500362059689" expanded="true" signature="105:126" placeholder="SELECT * FRO..modpack..." />
+          </folding>
         </state>
       </provider>
     </entry>
