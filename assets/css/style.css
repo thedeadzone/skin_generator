@@ -114,3 +114,29 @@ textarea {
 #myTable tbody tr td:first-child {
     padding: 5px 0 13px;
 }
+
+@media (max-width: 768px) {
+    .logo-header a img {
+        width: 120px;
+    }
+}
+
+@media (max-width: 568px) {
+    .header-menu li a h1 {
+        font-size:16px;
+    }
+}
+
+@media (max-width: 468px) {
+    .header-menu {
+        margin-left:-20px;
+    }
+
+    .header-menu li a h1 {
+        font-size:14px;
+    }
+
+    .header-menu li a h1, .header-menu li a h3 {
+        margin-left:30px;
+    }
+}
