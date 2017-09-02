@@ -119,13 +119,13 @@ $(document).ready(function () {
                     } else if (width == '50%') {
                         $('#modpack-progress-text').text('Painting tanks pink');
                     } else if (width == '60%') {
-                        $('#modpack-progress-text').text('Realised mistake and painting tanks in the right color');
+                        $('#modpack-progress-text').text('Painting tanks in the right color');
                     } else if (width == '70%') {
                         $('#modpack-progress-text').text('Blowing the paint dry with a hair blower');
                     } else if (width == '80%') {
                         $('#modpack-progress-text').text('Rolling tanks carefully back inside the garage');
                     } else if (width == '90%') {
-                        $('#modpack-progress-text').text('Finishing packing up all tanks');
+                        $('#modpack-progress-text').text('Wrapping tanks in gift paper');
                     } else if (width == '100%') {
                         $('.progress-modpack').addClass('hidden');
                     }

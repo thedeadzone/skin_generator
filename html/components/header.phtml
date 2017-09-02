@@ -44,7 +44,7 @@
     $date = date("Y-m-d H:i:s");
     $page = $_SERVER['PHP_SELF'];
 
-    $query = "INSERT INTO website (`id`, `page`, `date`) VALUES (NULL, '".$page."', '".$date."')";
+    $query = "INSERT INTO wot_website_stats2skins (`id`, `page`, `date`) VALUES (NULL, '".$page."', '".$date."')";
 
     $result = $conn->query($query);
     ?>

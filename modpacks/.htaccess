@@ -1,0 +1,7 @@
+#Allow from all
+
+<FilesMatch "\.(gz|pdf|zip|rar)$" >
+    Order allow,deny
+    Allow from all
+    Satisfy any
+</FilesMatch>

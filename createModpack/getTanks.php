@@ -24,7 +24,7 @@ foreach($tanks as $tank) {
 
 //var_dump($resultArray); exit;
 
-$query = "INSERT INTO tanks (`id`, `tank_id`, `type`, `short_name`, `name`, `nation`, `tier`, `is_premium`, `small_icon`, `contour_icon`, `big_icon`, `tag`) VALUES ";
+$query = "INSERT INTO wot_tanks (`id`, `tank_id`, `type`, `short_name`, `name`, `nation`, `tier`, `is_premium`, `small_icon`, `contour_icon`, `big_icon`, `tag`) VALUES ";
 
 $query .= implode(",",$resultArray);
 

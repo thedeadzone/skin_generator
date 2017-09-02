@@ -36,7 +36,7 @@ $json_decoded_tanks = json_decode($response_tanks);
 
 $tanks = $json_decoded_tanks->data->$account_id;
 
-$query3 = "SELECT * FROM tanks";
+$query3 = "SELECT * FROM wot_tanks";
 $result2= $conn->query($query3);
 
 $tanksArray = [];
@@ -60,7 +60,7 @@ foreach($tanks as $key=>$tank) {
 }
 
 // Gets WN8 expected values
-$query4 = "SELECT * FROM wn8";
+$query4 = "SELECT * FROM wot_wn8";
 $result3 = $conn->query($query4);
 
 $wn8Array = [];
@@ -260,10 +260,10 @@ $map_id = uniqid();
 mkdir('../modpacks/' . $map_id, 0700);
 
 copy($zipName, '../modpacks/' . $map_id . '/' .$zipName );
-copy('../permission/.htaccess', '../modpacks/' . $map_id . '/.htaccess');
+//copy('../permission/.htaccess', '../modpacks/' . $map_id . '/.htaccess');
 $download_url = "../modpacks/" . $map_id . '/' .$zipName;
 
-$query = "INSERT INTO modpack (`id`, `map_id`, `username`, `date`, `server`) VALUES (NULL, '".$map_id."', '".$username."', '".$date."', '".$server."')";
+$query = "INSERT INTO wot_modpack (`id`, `map_id`, `username`, `date`, `server`) VALUES (NULL, '".$map_id."', '".$username."', '".$date."', '".$server."')";
 $result = $conn->query($query);
 $conn->close();
 

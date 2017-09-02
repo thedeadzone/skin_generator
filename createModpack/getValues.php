@@ -24,7 +24,7 @@ foreach($ratings as $rating) {
 
 //var_dump($resultArray); exit;
 
-$query = "INSERT INTO wn8 (`id`, `tank_id`, `expFrag`, `expDamage`, `expSpot`, `expDef`, `expWinRate`) VALUES ";
+$query = "INSERT INTO wot_wn8 (`id`, `tank_id`, `expFrag`, `expDamage`, `expSpot`, `expDef`, `expWinRate`) VALUES ";
 
 $query .= implode(",",$resultArray);
 
